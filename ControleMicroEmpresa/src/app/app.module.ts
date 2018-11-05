@@ -5,6 +5,9 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { FornecedorComponent } from './view/fornecedor/fornecedor.component';
 import { CepComponent } from './view/cep/cep.component';
+import { ProdutoComponent } from './produto/produto.component';
+import { VendaComponent } from './venda/venda.component';
+import { ClienteComponent } from './cliente/cliente.component';
 
 
 
@@ -12,7 +15,10 @@ import { CepComponent } from './view/cep/cep.component';
   declarations: [
     AppComponent,
     FornecedorComponent,
-    CepComponent
+    CepComponent,
+    ProdutoComponent,
+    VendaComponent,
+    ClienteComponent
   ],
   imports: [
     BrowserModule,
