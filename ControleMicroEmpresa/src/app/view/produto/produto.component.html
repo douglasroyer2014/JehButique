@@ -1,3 +1,60 @@
-<p>
-  produto works!
-</p>
+<div calss="col-md-6">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="observacao">Observação do Produto </label>
+        <input type="text" class="form-control" id="observacao" placeholder="T Item com gola" [(ngModel)]=Produto.observacao>
+      </div>
+    </div>
+
+
+    <div class="col-md-2">
+      <div class="form-group">
+        <label for="valor">Valor Unitario</label>
+        <input type="text" class="form-control" id="valor" placeholder="99.99" [(ngModel)]=Produto.valor>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div calss="col-md-6">
+  <div class="row">
+    <div class="col-md-5">
+      <div class="form-group">
+        <label for="descricaoMarca">Marca</label>
+        <input type="text" class="form-control" id="descricaoMarca" placeholder="Marca" [(ngModel)]=Marca.observacao>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div calss="col-md-6">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="descricaoTamanho">Tamanho</label>
+        <input type="text" class="form-control" id="descricaoTamanho" placeholder="P ,M, G ,GG" [(ngModel)]=Tamanho.observacao>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="descricaoUnidade">Unidade</label>
+        <input type="text" class="form-control" id="descricaoUnidade" placeholder="Unidade" [(ngModel)]=Unidade.observacao>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-5">
+  <div class="form-group">
+    <label for="descricaoTipo">Tipo</label>
+    <input type="text" class="form-control" id="descricaoTipo" placeholder="Calça , Camisa" [(ngModel)]=Tipo.observacao>
+  </div>
+</div>
+
+
+<div col-md-8>
+  <button class="btn btn-primary" type="button">Gravar</button>
+</div>

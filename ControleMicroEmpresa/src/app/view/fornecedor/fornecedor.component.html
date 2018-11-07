@@ -3,14 +3,14 @@
     <div class="col-md-4">
       <div class="form-group">
         <label for="nome">Nome do Empresa</label>
-        <input type="text" class="form-control" id="nome" placeholder="Nome da Empresa">
+        <input type="text" class="form-control" id="nome" placeholder="Nome da Empresa" [(ngModel)]=Fornecedor.nome>
       </div>
     </div>
 
     <div class="col-md-4">
       <div class="form-group">
         <label for="fantasia">Nome Fantasia</label>
-        <input type="text" class="form-control" id="fantasia" placeholder="Nome  Fantasia da Empresa">
+        <input type="text" class="form-control" id="fantasia" placeholder="Nome  Fantasia da Empresa" [(ngModel)]=Fornecedor.nomeFantasia>
       </div>
     </div>
 
@@ -22,7 +22,7 @@
     <div class="col-md-5">
       <div class="form-group">
         <label for="cnpj">CNPJ da Empresa</label>
-        <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0000-00">
+        <input type="text" class="form-control" id="cnpj" placeholder="00.000.000/0000-00" [(ngModel)]=Fornecedor.CNPJ>
       </div>
     </div>
   </div>
@@ -33,14 +33,14 @@
       <div class="col-md-4">
         <div class="form-group">
           <label for="atividade">Atividade da Empresa</label>
-          <input type="text" class="form-control" id="atividade" placeholder="Nome da Empresa">
+          <input type="text" class="form-control" id="atividade" placeholder="Nome da Empresa" [(ngModel)]=Fornecedor.atividade>
         </div>
       </div>
 
       <div class="col-md-3">
         <div class="form-group">
           <label for="razaoSocial">Razão Social da Empresa</label>
-          <input type="text" class="form-control" id="razaoSocial" placeholder="Nome da Empresa">
+          <input type="text" class="form-control" id="razaoSocial" placeholder="Nome da Empresa" [(ngModel)]=Fornecedor.razaoSocial>
         </div>
       </div>
     </div>
@@ -52,16 +52,16 @@
       <div class="col-md-2">
         <div class="form-group">
           <label for="telefone">Telefone da Empresa</label>
-          <input type="text" class="form-control" id="telefone" placeholder="(00) 00000-0000">
+          <input type="text" class="form-control" id="telefone" placeholder="(00) 00000-0000" [(ngModel)]=Fornecedor.telefone>
           <label for="celular">Celular da Empresa</label>
-          <input type="text" class="form-control" id="celular" placeholder="(00) 00000-0000">
+          <input type="text" class="form-control" id="celular" placeholder="(00) 00000-0000" [(ngModel)]=Fornecedor.celular>
         </div>
       </div>
 
       <div class="col-md-5">
         <div class="form-group">
           <label for="email">E-mail da Empresa</label>
-          <input type="text" class="form-control" id="email" placeholder="E-mail da Empresa">
+          <input type="text" class="form-control" id="email" placeholder="E-mail da Empresa" [(ngModel)]=Fornecedor.email >
         </div>
       </div>
     </div>
@@ -71,8 +71,8 @@
       <div class="row">
         <div class="col-md-5">
           <div class="form-group">
-            <label for="observacao">CNPJ da Empresa</label>
-            <input type="text" class="form-control" id="observacao" placeholder="Observações">
+            <label for="observacao">Observação</label>
+            <input type="text" class="form-control" id="observacao" placeholder="Observações" [(ngModel)]=Fornecedor.observacao>
           </div>
         </div>
       </div>

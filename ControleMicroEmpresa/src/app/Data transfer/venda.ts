@@ -1,6 +1,6 @@
-export class Marca {
+export class Venda {
 
-    codigo:number;
+    notaFiscal:number;
     codigoCliente:number;
     data:string;
     desconto:number;

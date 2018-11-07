@@ -1,3 +1,73 @@
-<p>
-  venda works!
-</p>
+<div calss="col-md-2">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="form-group">
+        <label for="notaFiscal">Nota Fiscal </label>
+        <input type="text" class="form-control" id="notaFiscal" placeholder="000" [(ngModel)]=Venda.notaFiscal>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div calss="col-md-6">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="form-group">
+        <label for="idCliente">Numero Cliente </label>
+        <input type="text" class="form-control" id="idCliente" placeholder="" [(ngModel)]=Venda.codigoCliente>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="nomeCliente">Nome do Cliente</label>
+        <input type="text" class="form-control" id="nomeCliente" placeholder="nomeCliente" [(ngModel)]=Cliente.nome>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div calss="col-md-4">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="desconto">Descontoca</label>
+        <input type="text" class="form-control" id="desconto" placeholder="" [(ngModel)]=Venda.desconto>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div calss="col-md-5">
+  <div class="row">
+    <div class="col-md-2">
+      <div class="form-group">
+        <label for="pagamento">Pagamento</label>
+        <input type="text" class="form-control" id="pagamento" placeholder="" [(ngModel)]=Venda.pagamento>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="form-group">
+        <label for="parcela">Parcela</label>
+        <input type="text" class="form-control" id="parcela" placeholder="parcela" [(ngModel)]=Venda.parcela>
+      </div>
+    </div>
+
+
+
+
+    <div col-md-8>
+      <button class="btn btn-primary" type="button">SalvarVenda</button>
+    </div>
+    <div col-md-8>
+      <button class="btn btn-primary" type="button">FinalizarVenda</button>
+    </div>
+    <div col-md-8>
+      <button class="btn btn-primary" type="button">Limpar</button>
+    </div>
+    <div col-md-8>
+      <button class="btn btn-primary" type="button">AdicionarItem</button>
+    </div>

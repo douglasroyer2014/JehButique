@@ -5,9 +5,11 @@ import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
 import { FornecedorComponent } from './view/fornecedor/fornecedor.component';
 import { CepComponent } from './view/cep/cep.component';
-import { ProdutoComponent } from './produto/produto.component';
-import { VendaComponent } from './venda/venda.component';
-import { ClienteComponent } from './cliente/cliente.component';
+import { ProdutoComponent } from './view/produto/produto.component';
+import { VendaComponent } from './view/venda/venda.component';
+import { ClienteComponent } from './view/cliente/cliente.component';
+import { ItemVendaComponent } from './view/item-venda/item-venda.component';
+import { CarteiraItemComponent } from './view/carteira-item/carteira-item.component';
 
 
 
@@ -18,7 +20,9 @@ import { ClienteComponent } from './cliente/cliente.component';
     CepComponent,
     ProdutoComponent,
     VendaComponent,
-    ClienteComponent
+    ClienteComponent,
+    ItemVendaComponent,
+    CarteiraItemComponent
   ],
   imports: [
     BrowserModule,

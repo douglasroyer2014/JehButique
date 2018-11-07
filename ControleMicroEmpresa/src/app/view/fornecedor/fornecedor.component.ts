@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Fornecedor } from 'src/app/Data transfer/fornecedor';
 
 @Component({
   selector: 'app-fornecedor',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FornecedorComponent implements OnInit {
 
+  Fornecedor = new Fornecedor();
   constructor() { }
 
   ngOnInit() {

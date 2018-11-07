@@ -1,6 +1,7 @@
 export class Fornecedor {
 
-    nomeFantasia: string;
+    nome: string;
+    nomeFantasia:string;
     CNPJ: number;
     atividade: string;
     razao_social: string;

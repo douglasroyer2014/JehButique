@@ -1,4 +1,4 @@
-export class Pagemanto {
+export class Pagamento {
 
     codigo:number;
     descricao:string;    
