@@ -23,7 +23,7 @@
     <div class="col-md-5">
       <div class="form-group">
         <label for="descricaoMarca">Marca</label>
-        <input type="text" class="form-control" id="descricaoMarca" placeholder="Marca" [(ngModel)]=Marca.observacao>
+        <input type="text" class="form-control" id="descricaoMarca" placeholder="Marca" [(ngModel)]=Marca.descricao>
       </div>
     </div>
   </div>
@@ -34,23 +34,29 @@
     <div class="col-md-4">
       <div class="form-group">
         <label for="descricaoTamanho">Tamanho</label>
-        <input type="text" class="form-control" id="descricaoTamanho" placeholder="P ,M, G ,GG" [(ngModel)]=Tamanho.observacao>
+        <input type="text" class="form-control" id="descricaoTamanho" placeholder="P ,M, G ,GG" [(ngModel)]= Tamanho.descricao>
       </div>
     </div>
 
     <div class="col-md-3">
       <div class="form-group">
         <label for="descricaoUnidade">Unidade</label>
-        <input type="text" class="form-control" id="descricaoUnidade" placeholder="Unidade" [(ngModel)]=Unidade.observacao>
+        <input type="text" class="form-control" id="descricaoUnidade" placeholder="Unidade" [(ngModel)]= Unidade.descricao>
       </div>
     </div>
   </div>
 </div>
 
 <div class="col-md-5">
-  <div class="form-group">
-    <label for="descricaoTipo">Tipo</label>
-    <input type="text" class="form-control" id="descricaoTipo" placeholder="Calça , Camisa" [(ngModel)]=Tipo.observacao>
+  <div class="fgrouporm-">
+    <label for="Tipo" >Tipo</label>
+    
+<select ng-model="Tipo" > 
+ <option ng-repeat ="x in tipos" value="{{x.descricao}}">{{x.descricao}}</option>
+</select>
+
+
+
   </div>
 </div>
 
